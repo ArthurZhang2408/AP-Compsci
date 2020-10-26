@@ -30,11 +30,9 @@ public class Main {
 
     public static int difference(int limit){
         int sum = 0;
-        for (int i = 1; i<=limit; i++){
-            sum+=i;
-        }
         int squares = 0;
         for (int i = 1; i<=limit; i++){
+            sum+=i;
             squares+=i*i;
         }
         return sum*sum-squares;
