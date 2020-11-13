@@ -26,11 +26,11 @@ public class Main {
     }
 
     public static String toBinary(int n) {
-        String answer = "";
+        String output = "";
         while (n > 0) {
-            answer = n%2+answer;
+            output = n%2+output;
             n = n/2;
-        }return answer;
+        }return output;
     }
 
     public static String pigLatin(String input){
